@@ -1,0 +1,30 @@
+{
+  "name": "attendance-tracker",
+  "version": "1.0.0",
+  "description": "Aplicación para gestionar y verificar la asistencia de estudiantes, con soporte (opcional) para persistencia con Redis o PostgreSQL.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js inputs/input.txt",
+    "test": "mocha tests/*.test.js"
+  },
+  "keywords": [
+    "attendance",
+    "tracker",
+    "students",
+    "nodejs",
+    "postgresql",
+    "redis"
+  ],
+  "author": "GT",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "pg": "^8.7.1",
+    "readline": "^1.3.0",
+    "redis": "^4.6.7"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.2.0"
+  }
+}
