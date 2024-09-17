@@ -220,10 +220,10 @@ MVC permite, como bien sabemos, dividir la aplicación en tres componentes princ
 
 Esta separación promueve un desarrollo más modular y escalable, facilita las pruebas unitarias, y en general permite que diferentes partes del equipo trabajen en paralelo sin interferencias.
 
-### 4. ¿Qué se trata de resolver realmente?
+### 4. ¿Qué se trata de resolver realmente? (...¿y cómo se hace?)
 
-Lo que aborda este ejercicio es el manejo consistente y efectivo de una estructura de datos compleja (anidada) que debe inicializarse y modificarse recurrentemente a partir de las instrucciones indicadas en el archivo de entrada (input.txt). Luego cuando termine de procesarse el archivo input, se necesita manejar la estructura de datos creada para totalizar según ciertas reglas de negocio las asistencias de los alumnos.
+Lo que aborda este ejercicio es el manejo consistente y efectivo de una estructura de datos compleja (anidada) que debe inicializarse y modificarse recurrentemente a partir de las instrucciones indicadas en el archivo de entrada (input.txt). Luego cuando termine de procesarse el archivo input, se necesita manejar la estructura de datos creada para totalizar, según ciertas reglas de negocio, las asistencias de los alumnos.
 
-A contnuación se muestra en la imagen la dinámica esperada:
+A contnuación se muestra en la imagen la dinámica esperada y cómo se aborda técnicamente:
 
-### 5. ¿Cómo se hace?
+![Funcionamiento](assets/funcionamiento_solucion.jpg "Funcionamiento Solución")
