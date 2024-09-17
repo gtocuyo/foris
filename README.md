@@ -227,3 +227,8 @@ Lo que aborda este ejercicio es el manejo consistente y efectivo de una estructu
 A contnuación se muestra en la imagen la dinámica esperada y cómo se aborda técnicamente:
 
 ![Funcionamiento](assets/funcionamiento_solucion.jpg "Funcionamiento Solución")
+
+
+### ...sobre el modo de lectura del archivo input.txt: 
+
+Al comienzo de la ejecución de la aplicación, la decisión de leer el archivo de manera síncrona (con el método readFileSync() del paquete fs) es intencional dado que es un enfoque adecuado en este contexto porque proporciona una forma sencilla de garantizar que el archivo de entrada se lea completamente antes de continuar con el procesamiento, evitando problemas de asincronía innecesaria y manteniendo el flujo de ejecución lineal y fácil de entender. El caso de uso de este ejercicio no amerita evitar el bloqueo del Event Loop ya que no hay acciones concurrentes que se necesiten ejecutar mientras se procesa el archivo input.txt.
